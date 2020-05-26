@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/darren/WebstormProjects/darrenfongzw.github.io/node_modules/.bin:/home/darren/.cargo/bin:/home/darren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/home/darren/WebstormProjects/restApi/node_modules/.bin/dateformat'
+
+npm manifest: 
+  {
+    "name": "restapi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "nodemon": "^2.0.3",
+      "express": "^4.17.1"
+    },
+    "scripts": {
+      "start": "nodemon index.js"
+  
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
